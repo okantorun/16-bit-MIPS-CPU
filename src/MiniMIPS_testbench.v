@@ -1,0 +1,107 @@
+module MiniMIPS_testbench();
+ `define DELAY 20
+reg clk;
+reg [31:0]pc;
+
+MiniMIPS obj(clk,pc);
+
+initial clk = 0;
+initial pc = 0;
+
+initial begin 
+	 clk = ~clk;
+	 pc=32'd0;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd1;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd2;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd3;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd4;
+#`DELAY;
+	clk = ~clk;
+	 pc=32'd5;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd6;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd7;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd8;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd9;
+#`DELAY;
+	clk = ~clk;
+	 pc=32'd10;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd11;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd12;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd13;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd14;
+#`DELAY;
+	clk = ~clk;
+	 pc=32'd15;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd16;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd17;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd18;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd19;
+#`DELAY;
+	clk = ~clk;
+	 pc=32'd19;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd20;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd21;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd22;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd23;
+#`DELAY;
+	clk = ~clk;
+	 pc=32'd24;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd25;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd26;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd27;
+#`DELAY;
+	 clk = ~clk;
+	 pc=32'd28;
+#`DELAY;
+	clk = ~clk;
+	 pc=32'd29;
+end
+
+
+endmodule
