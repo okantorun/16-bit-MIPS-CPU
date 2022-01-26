@@ -34,7 +34,7 @@ MiniMIPS is a small version of the processor with MIPS architecture and made wit
 
 ## Testing
 
-It is recommended to [get project from here](https://github.com/okantorun/16-bit-MIPS-CPU/releases/edit/v1.0) and use *qar* file to restore project. You can also clone repository and try to open *MiniMIPS.qpf* in Quartus II.
+It is recommended to [get project from here](https://github.com/okantorun/16-bit-MIPS-CPU/releases/tag/v1.0) and use *qar* file to restore project. You can also clone repository and try to open *MiniMIPS.qpf* in Quartus II.
 
 - Use ModelSim and compile *src/MiniMIPS_testbench.v*. This is main testbench and it will run instructions defined [here](https://github.com/okantorun/16-bit-MIPS-CPU/blob/main/simulation/modelsim/instruction_data.txt).
 
