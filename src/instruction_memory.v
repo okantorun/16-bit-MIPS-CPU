@@ -6,7 +6,7 @@ output reg[15:0] _instruction;
 reg [15:0] instr_memory [29:0];
 
 initial begin
-	$readmemb("C:/Users/okant/Desktop/GTU/CSE331/hw4/simulation/modelsim/instruction_data.txt", instr_memory);
+	$readmemb("C:/Users/okant/Desktop/16-bit-MiniMIPS-CPU/simulation/modelsim/instruction_data.txt", instr_memory);
 end
 
 

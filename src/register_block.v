@@ -7,7 +7,7 @@ input clk,reg_write;
 reg [31:0] registers [7:0];
 
 initial begin
-	$readmemb("C:/Users/okant/Desktop/GTU/CSE331/hw4/simulation/modelsim/register_data.txt", registers);
+	$readmemb("C:/Users/okant/Desktop/16-bit-MiniMIPS-CPU/simulation/modelsim/register_data.txt", registers);
 end
 
 always @(*)begin

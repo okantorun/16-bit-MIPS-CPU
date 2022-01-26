@@ -9,7 +9,7 @@ input mem_read,mem_write;
 reg [31:0] _memory [255:0]; 
 
 initial begin
-	$readmemb("C:/Users/okant/Desktop/GTU/CSE331/hw4/simulation/modelsim/mem_memory.txt", _memory);
+	$readmemb("C:/Users/okant/Desktop/16-bit-MiniMIPS-CPU/simulation/modelsim/mem_memory.txt", _memory);
 end
 
 always @(*) begin
