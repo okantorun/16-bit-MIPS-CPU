@@ -2,7 +2,7 @@
 This is an implementation of [MIPS32](https://www.mips.com/products/architectures/mips32-2/) using Quartus II, Verilog and ModelSim.
 
 ## Overview
-MiniMIPS is a small version of the processor with MIPS architecture and made with verilog. In  MiniMIPS, there are 8 registers each holding 32 bit numbers. The instruction width is 16 bits instead of 32 bits in MIPS. There are two types of instructions in MiniMIPS and there are 15 different types of instructions.
+MiniMIPS is a small version of the processor with MIPS architecture and made with verilog. In  MiniMIPS, there are 8 registers each holding 32 bit numbers. The instruction width is 16 bits instead of 32 bits in MIPS. There are two types of instructions and there are 15 different types of instructions in MiniMIPS.
 
 ## CPU Design
 
